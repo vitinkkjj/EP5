@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(24, 255, 24, 0.781);
+    background-image: url(fundo.jpg);
+    display: grid;
+    grid-template-areas: 
+        "cab cab cab"
+        "sec pri pri"
+        "rod rod rod";
+    grid-gap: 5px;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 1000px auto;
+}
+
+header{
+    grid-area: cab;
+}
+aside{
+    grid-area: sec;
+}
+main{
+    grid-area: pri;
+}
+footer{
+    grid-area: rod;
+}
+
+header, aside, main, footer{
+    background-color: rgba(116, 93, 93, 0.7);
+}
