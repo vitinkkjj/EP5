@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrinho de Compras</title>
+<style>
+  /* Estilos para o carrinho de compras */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .cart {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  .item-name {
+    flex: 1;
+    font-weight: bold;
+  }
+  .item-price {
+    flex: 0 0 50px;
+    text-align: right;
+    color: #e91e63;
+  }
+</style>
+</head>
+<body>
+  <h1>Carrinho de Compras</h1>
+  <div class="cart">
+    <div class="cart-item">
+      <div class="item-name">Produto 1</div>
+      <div class="item-price">$10</div>
+    </div>
+    <div class="cart-item">
+      <div class="item-name">Produto 2</div>
+      <div class="item-price">$20</div>
+    </div>
+    <div class="cart-item">
+      <div class="item-name">Produto 3</div>
+      <div class="item-price">$30</div>
+    </div>
+    <div class="cart-item">
+      <div class="item-name">Produto 4</div>
+      <div class="item-price">$40</div>
+    </div>
+    <!-- Mais itens do carrinho aqui... -->
+  </div>
+</body>
+</html>

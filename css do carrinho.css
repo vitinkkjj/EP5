@@ -1,0 +1,43 @@
+/* Estilos para o carrinho de compras */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #977676;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cart {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .item-name {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .item-price {
+    flex: 0 0 50px;
+    text-align: right;
+    color: #e91e63;
+  }
+  

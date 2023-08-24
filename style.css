@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(24, 255, 24, 0.781);
+    background-color: rgba(154, 172, 154, 0.781);
     background-image: url(fundo.jpg);
     display: grid;
     grid-template-areas: 
@@ -27,3 +27,53 @@ footer{
 header, aside, main, footer{
     background-color: rgba(116, 93, 93, 0.7);
 }
+
+
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+  }
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
